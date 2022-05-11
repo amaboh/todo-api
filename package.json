@@ -1,0 +1,28 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaboh/todo-api.git"
+  },
+  "author": "Amabo with an H",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amaboh/todo-api/issues"
+  },
+  "homepage": "https://github.com/amaboh/todo-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  }
+}
